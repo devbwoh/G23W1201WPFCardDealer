@@ -17,19 +17,19 @@
                      Background="#040">
             <Image x:Name="Card1"
                Stretch="None"
-               Source="images/black_joker.png"/>
+               Source="{Binding CardResource[0]}"/>
             <Image x:Name="Card2"
                Stretch="None"
-               Source="images/black_joker.png"/>
+               Source="{Binding CardResource[1]}"/>
             <Image x:Name="Card3"
                Stretch="None"
-               Source="images/black_joker.png"/>
+               Source="{Binding CardResource[2]}"/>
             <Image x:Name="Card4"
                Stretch="None"
-               Source="images/black_joker.png"/>
+               Source="{Binding CardResource[3]}"/>
             <Image x:Name="Card5"
                Stretch="None"
-               Source="images/black_joker.png"/>
+               Source="{Binding CardResource[4]}"/>
         </UniformGrid>
     </DockPanel>
 </Window>
